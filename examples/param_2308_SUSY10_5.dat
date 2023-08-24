@@ -1,0 +1,46 @@
+#Parameter card used for the scan
+#1 column: fixed parameter
+#2 columns: free parameter
+#5 columns: measured èarameter with 3sigma uncertainties
+
+# Model of 2209.00021 parameters. Parameters with prefix "data_"
+# are measured and can vary within a range. Parameters with prefix "model4_"
+# are model parameters. Data from PDG + nuFIT. Note that angles are
+# given in radians and mass squared differences of neutrinos are in GeV^2.
+# all masses are in GeV. Here we can in log10(mass [GeV]), also log10(r1),log10(r2),  log10(ce) and log10(cnu)
+
+sign_parameter         0      1
+generic_quark_phase_a1 0 6.28
+generic_quark_phase_a2 0 6.28
+data_quark_th12        0.224998 
+data_quark_th13        0.00365163
+data_quark_th23        0.041385
+data_quark_delta       1.144 
+data_quark_yu          2.9587e-6
+data_quark_yc          0.00145083
+data_quark_yt          0.50162 
+data_quark_yd          5.43349e-5
+data_quark_ys          1.0762e-4
+data_quark_yb          5.861e-3
+data_lepton_ye         2.20971e-6 
+data_lepton_ymu        4.66489e-4 
+data_lepton_ytau       7.96229e-3 
+model4_mR              2e-11     15e-11
+model4_r1              -2.0e-2      2.0e-2 
+model4_r2              -7.0       7.0
+model4_cnu             	-10.0      10.0
+model4_ce              -40.0      35.0
+data_neutrino_deltamsq21bf 7.41e-5 
+data_neutrino_deltamsq31bf 2.507e-3 
+data_neutrino_th23  0.737   
+data_neutrino_th12  0.583   
+data_neutrino_th13  0.14974 
+data_neutrino_delta 4.049 
+sigma_lepton_ye 0.0708e-6
+sigma_lepton_ymu 0.00001491
+sigma_lepton_ytau  0.000821
+sigma_neutrino_th12  0.013
+sigma_neutrino_th13  0.0019
+sigma_neutrino_th23  0.019
+sigma_dm21  0.21e-5
+sigma_dm31  0.027e-3
